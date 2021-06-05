@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <div id="root" class="absolute"></div>
+    <div id="console" class="absolute">
+        <h1>Console</h1>
+        <div>
+            <div>
+                <p>
+                    <span><input type="range" id=""> wysokość kamery nad ziemią</span><br>
+                    <span><input type="range" id=""> kąt nachylenia kamery x</span><br>
+                    <span><input type="range" id=""> odległość kamery od postaci</span><br>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span><input type="range" id=""> kąt widzenia kamery y</span><br>
+                    <span><input type="range" id=""> fov kamery</span><br>
+                    <span><input type="range" id=""> moc świateł</span><br>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span><input type="checkbox" id="cienie"> cienie</span><br>
+                    <span><input type="checkbox" id="widok_gora"> widok z góry</span><br>
+                    <span><input type="checkbox" id=""> kamera za playerem</span><br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

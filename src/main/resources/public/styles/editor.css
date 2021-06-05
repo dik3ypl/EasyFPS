@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-image: url("../images/main.png");
+    background-size: 100vw 100vh;
+}
+
+#main {
+    width: 1400px;
+    margin: auto;
+    margin-top: 225px;
+}
+
+#board {
+    height: 500px;
+    width: 500px;
+    padding: 0;
+    float: left;
+    opacity: 0.7;
+}
+
+#items {
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+pre {
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+    width: 400px;
+    height: 500px;
+    border-radius: 0;
+    opacity: 0.5;
+    background-color: lightgrey;
+    color: black;
+    overflow: auto;
+}
+
+.box {
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin: 0;
+    background-color: lightgray;
+    opacity: 0.7;
+    border: 1px black solid;
+}
+
+#now {
+    text-align: center;
+    line-height: 50px;
+    width: 400px;
+    height: 50px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23pt;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23pt;
+    transition: 2s;
+}
+
+#save_lvl {
+    background-color: black;
+    color: white;
+}
+
+#save_test {
+    background-color: black;
+    color: white;
+}
+
+#load_lvl {
+    background-color: black;
+    color: white;
+}
+
