@@ -43,7 +43,7 @@ To run this project locally, ensure you have the following installed:
 
 ```bash
 git clone <repository-url>
-cd simple-fps-game-master
+cd simple-fps-game
 ```
 
 ### 2. Install frontend dependencies:
